@@ -1,0 +1,16 @@
+<body onload="cdreset()">
+  <div id="wrapper">
+    <div id="innerwrapper">
+      <div id="square">
+        <div id="droppable" class="ui-widget-header">
+          <p> <span id="countdown" class="timer"></span> </p>
+        </div>
+        <div id="buttons">
+          <input type="button" value="Start" onclick="setSeconds(); countdown();">
+          <input type="button" value="Stop" onclick="cdpause()">
+          <input type="button" value="Reset" onclick="cdreset()">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
